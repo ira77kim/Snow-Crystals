@@ -13,7 +13,7 @@ function cleartitle(){
 }
 
 function setup() {
-  createCanvas(windowWidth,windowHeight);
+  createCanvas(windowWidth*0.98,windowHeight*0.98);
 
   angleMode(DEGREES);
   background(59, 126, 172);

@@ -3,6 +3,9 @@ body{
     font-family: 'Comfortaa', cursive;  
     color: white;
     background-color: rgb(59, 126, 172);
+    width:95vw;
+    height:95vh;
+    margin:0px;
 }
 #title{
     display: block;
