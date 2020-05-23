@@ -55,7 +55,7 @@ function draw() {
       for(let i = 0; i < symmetry; i++){
         
         let distance = dist(mx,my,pmx,pmy);
-        let sw = map(distance, 0, 8, 7, 3);
+        let sw = map(distance, 0, 8, 5, 3);
         
         strokeWeight(sw);
         rotate(angle);
