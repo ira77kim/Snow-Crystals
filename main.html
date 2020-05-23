@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snow Crystals</title>
+    <!-- font import -->
+    <link href="https://fonts.googleapis.com/css2?
+    family=Lato:wght@400;900&
+    family=Comfortaa:wght@300;400;500;600&
+    display=swap" rel="stylesheet">
+ 
+    <!-- scripts -->
+    <link rel = "stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <span id="main">
+    <span id="pageTitle">Snow Crystals</span>
+        <div class="contents">
+        <br>
+        <div class="slidecontainer">
+            <div id="temperature">
+                Temperature : 
+            <span id="instanttemp"></span>
+            <br>
+            <input type="range" min="0" max="40" value="0" step="0.1" class="slider" id="temp">
+            <br>
+            <span id ="tempDes" class="small">0 °C to -40 °C</span>
+            </div>   
+            <div id="humidity">
+                Humidity : 
+                <span id="instanthumi"></span>
+            <br>
+            <input type="range" min="0" max="2.3" value="0" step="0.1" class="slider" id="humid">
+            <br>
+            <span id ="humiDes" class="small">0 g/m3 to 2.3 g/m3</span>
+            </div>
+        </div>
+        <br>
+        <div class="botcontents1">
+            
+            <span class="sub" id="displaysnowflaketype">Type : none</span>
+            <br>
+            <span class="small" id="description">Description Description Description Description Description Description Description Description Description Description Description Description Description </span>
+        </div>
+            <br>
+        <div class="botcontents2">
+            <span class="sub" id="location">Location  </span>
+            <br>
+            <span class="small" id="displayloc">Latitude : <br>Longitude : </span>
+        </div>
+        <br>
+        <div class="last">
+            <span class="sub" id="windspeed">Windspeed : </span>
+        </div>
+            <!-- <br><br>
+            <button type="submit" id="gen">Generate</button> -->
+        </div>
+    </div>
+        <br>
+    </span>
+    <span id="link"><a href="https://www.dkimartist.com/">dkimartist.com</a></span>
+    <!-- <div id="location">Description</div>
+    <div id="windspeed">Description</div>
+    <div id="snowflaketype">Description</div> -->
+    <canvas id="flake"></canvas>
+
+    <script src = "js/three.js"></script>
+    <script src = "js/sketch.js"></script>
+</body>
+</html>
