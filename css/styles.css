@@ -161,3 +161,33 @@ a{
   color:white;
   text-decoration: none;
 }
+@media only screen and (max-width: 800px){
+  #main{
+    
+    width:60vw;
+  }
+  #pageTitle {
+    position: absolute;
+    top:5vh;
+    left:2vw;
+    font-size:6vw;
+    font-weight: 100;
+    color:white;
+  }
+  
+  .contents{
+    position: absolute;
+    top:10vh;
+    left:2vw;
+    font-size:1.667vw;
+    font-weight: 100;
+    color:white;
+    width:25vw;
+  }
+  .slider::-webkit-slider-thumb {
+    width: 15px; 
+    height: 15px; 
+    
+  }
+  
+}

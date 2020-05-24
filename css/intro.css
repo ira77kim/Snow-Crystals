@@ -46,4 +46,39 @@ body{
       background-color: #a0e0ff ;
       opacity:1;
   }
- 
+ @media only screen and (max-width: 800px){
+    html, body {
+        margin: 0;
+        padding: 25px 2px;
+    }
+    .header {
+        padding: 0px 30px;
+    }
+    .header h1{
+        font-size:40px;
+    }
+    .header h2 {
+        font-size: 18;
+    }
+    #number {
+        font-size: 40px;
+    }
+    .container{
+        margin-top: 80px;
+    }
+    .button{
+        font-size: 15px;
+        border-radius: 5px;
+        }
+    .column.center{
+        margin-top: 10px;
+    }
+    .footer h2{
+        font-size: 14px;
+        padding: 50px 10px 0px 0px;
+    }
+    #myVideo {
+        width: 95%;
+        border-radius: 10px;
+    }
+}

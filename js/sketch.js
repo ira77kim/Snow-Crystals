@@ -522,7 +522,7 @@ let text7 = "As no two snow chrystals are alike, solid plates, which has charact
 let text8 = "Sectered plates are formed through branching from thin plates, and in fact, are more common than the simple hexagons.";
 let text9 = "In temperatures below -22°C, plates grow on the ends of the columns.";
 
-document.getElementById("description").innerHTML="You have not made a snowflake yet.";
+document.getElementById("description").innerHTML="No snow crystals has been made yet.";
 
 function info(x,y){
    document.getElementById("displaysnowflaketype").innerHTML="Type : "+x;
