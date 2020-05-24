@@ -163,26 +163,24 @@ a{
 }
 @media only screen and (max-width: 800px){
   #main{
-    
     width:60vw;
   }
   #pageTitle {
     position: absolute;
-    top:10vh;
+    top:5vh;
     left:2vw;
     font-size:6vw;
     
   }
   
-  .contents{
-    position: absolute;
-    top:10vh;
-    left:2vw;
-    font-size:1.667vw;
+  .slidecontainer{
+
+    font-size:2.5vw;
     font-weight: 100;
-    color:white;
-    width:25vw;
   }
+
+
+  
   .slider::-webkit-slider-thumb {
     width: 15px; 
     height: 15px; 
