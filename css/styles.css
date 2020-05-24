@@ -172,19 +172,37 @@ a{
     font-size:6vw;
     
   }
-  
-  .slidecontainer{
+
+  .slidecontainer{ 
 
     font-size:2.5vw;
     font-weight: 100;
   }
-
-
-  
   .slider::-webkit-slider-thumb {
     width: 15px; 
     height: 15px; 
-    
   }
   
+  .contents{
+    position: absolute;
+    top:10vh;
+    left:2vw;
+    font-size:2.5vw;
+    font-weight: 100;
+    color:white;
+    width:25vw;
+  }
+
+  .botcontents1{
+    position: relative;
+    top:27vh;
+    width:22vw;
+  }
+
+  .botcontents2{
+    position:absolute;
+    top:57vh;
+  }
+
+
 }
