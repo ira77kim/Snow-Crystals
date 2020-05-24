@@ -168,11 +168,10 @@ a{
   }
   #pageTitle {
     position: absolute;
-    top:50vh;
+    top:10vh;
     left:2vw;
     font-size:6vw;
-    font-weight: 100;
-    color:white;
+    
   }
   
   .contents{
