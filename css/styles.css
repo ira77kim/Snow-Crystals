@@ -197,12 +197,18 @@ a{
     position: relative;
     top:27vh;
     width:22vw;
+    font-size:2.5vw;
   }
 
   .botcontents2{
     position:absolute;
     top:57vh;
+    font-size:2.5vw;
   }
 
+  .small{
+    line-height: 2vw;
+    font-size: 1.5vw;
+  }
 
 }
