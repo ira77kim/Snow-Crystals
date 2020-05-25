@@ -164,10 +164,16 @@ a{
   color:white;
   text-decoration: none;
 }
+
 @media only screen and (max-width: 800px){
-  
+  body{
+    
+    /* margin-top: 17vh; */
+    margin-left: 32vw; 
+  }
   #main{
-    width:60vw;
+    width:62vw;
+    left:1.5vw;
   }
   #pageTitle {
     position: absolute;
@@ -200,34 +206,40 @@ a{
   .botcontents1{
     position: relative;
     top:22vh;
-    width:22vw;
+    width:25vw;
     font-size:2.5vw;
   }
   #displaysnowflaketype{
     line-height: 11vw;
   }
   .botcontents2{
-    position:relative;
-    top:25vh;
+    position: absolute;;
+    top:55vh;
     font-size:2.5vw;
     line-height: 2vw;
   }
   #location{
     line-height: 11vw ;
   }
+
+  .sub{
+    line-height: 3vw;
+    height:1vh;
+  }
+
   .small{
-    line-height: 2vw;
+    line-height: 3vw;
     font-size: 1.5vw;
   }
 
   .last{
-    position: relative;
-    top: 30vh;
+    position: absolute;
+    top: 70vh;
   }
 
   #link{
-    position: relative;
-    top:70vh;
+    position: absolute;
+    top:87.5vh;
     left:2vw;
     
   }
