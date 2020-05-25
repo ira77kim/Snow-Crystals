@@ -13,7 +13,7 @@ body {
   position: absolute;
   top:2vh;
   left:3vw;
-  width:50vw;
+  width:97vw;
 }
 #flake{
   position: absolute;
@@ -144,16 +144,19 @@ body {
 #location{
   line-height: 60px;
 }
-#link{
-  position: absolute;
-  top:92vh;
-  right:7vw;
-  
-}
+
 .last{
   position:absolute;
   top: 75vh;
 }
+
+#link{
+  position: absolute;
+  top:90vh;
+  right:7vw;
+  
+}
+
 a{
   font-family: 'Roboto', sans-serif;
   font-size: 20;
@@ -162,6 +165,7 @@ a{
   text-decoration: none;
 }
 @media only screen and (max-width: 800px){
+  
   #main{
     width:60vw;
   }
@@ -169,7 +173,7 @@ a{
     position: absolute;
     top:5vh;
     left:2vw;
-    font-size:6vw;
+    font-size:7vw;
     
   }
 
@@ -195,21 +199,45 @@ a{
 
   .botcontents1{
     position: relative;
-    top:27vh;
+    top:22vh;
     width:22vw;
     font-size:2.5vw;
   }
-
+  #displaysnowflaketype{
+    line-height: 11vw;
+  }
   .botcontents2{
     position:relative;
     top:25vh;
     font-size:2.5vw;
     line-height: 2vw;
   }
-
+  #location{
+    line-height: 11vw ;
+  }
   .small{
     line-height: 2vw;
     font-size: 1.5vw;
+  }
+
+  .last{
+    position: relative;
+    top: 30vh;
+  }
+
+  #link{
+    position: relative;
+    top:70vh;
+    left:2vw;
+    
+  }
+  
+  a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
+    font-weight:100;
+    color:white;
+    text-decoration: none;
   }
 
 }
