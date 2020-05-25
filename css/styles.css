@@ -167,7 +167,7 @@ a{
 
 @media only screen and (max-width: 800px){
   body{
-    
+    font-family: sans-serif;
     /* margin-top: 17vh; */
     margin-left: 32vw; 
   }
@@ -224,7 +224,7 @@ a{
 
   .sub{
     line-height: 3vw;
-    height:1vh;
+    
   }
 
   .small{
