@@ -226,7 +226,7 @@ a{
 
   .botcontents2{
     position: absolute;;
-    top:60vh;
+    top:55vh;
     width:25vw;
     font-size:2.5vw;
     line-height: 2vw;
@@ -246,14 +246,14 @@ a{
 
   .last{
     position: absolute;
-    top: 82vh;
+    top: 73vh;
     line-height: 3vh;
-    width:50vw;
+    /* width:50vw; */
   }
 
   #link{
     position: absolute;
-    top:92.5vh;
+    top:89vh;
     left:78vw;
     
   }
