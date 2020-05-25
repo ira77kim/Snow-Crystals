@@ -315,6 +315,7 @@ console.log("real"+windspeed)
 //setting up temp range slider into realtime input
  let setTemp=document.getElementById("temp");
  let inputTemp=0;
+ 
  setTemp.addEventListener("input", function t(){
     inputTemp= this.value;
     //console.log(inputTemp);
@@ -457,12 +458,12 @@ function snowflakeSwitch () {
       }
       //console.log("Hollow Columns & Solid Colums & Capped Columns");
    }
-   if(inputTemp==null){
+   if(inputTemp===null){
       inputTemp = 0;
       displayT.innerHTML="Temperature : 0 °C";
       console.log("hi");
    }
-   if(inputHumi==undefined){
+   if(inputHumi===undefined){
       inputHumi = 0;
       displayH.innerHTML="Humidity : 0 g/m3";
    }
@@ -514,7 +515,7 @@ function fall(s){
 // texts
 let text1 = "Snow crystals first grow as simple hexagonal prisms that develops into either plates or columns.";
 let text2 = "Thin plates are six-sided and flat. The plates may be simple hexagons or patterned. Among the thin plates, in temperature around -15 are more large than those that forms in warmer temperature.";
-let text3 = "Dendrites are the six sided branchs shapes that most people relate with snowflakes. In lower temperature, the dendrite chrystals form in larger shape with more side branches. Fernlike-dendrites sometimes appear.";
+let text3 = "Dendrites are the six sided branchs shapes that most people relate with snowflakes. In lower temperature, the dendrite chrystals form in larger shape with more side branches.";
 let text4 = "Simple prisms can turn into hexagonal columns shaped a lot like wooden pencils. They can be short and squat or long and thin. Length varies.";
 let text5 = "Hexagonal columns often form with conical hollow regions in their ends, and such forms are called hollow columns.";
 let text6 = "The needles may be solid, hollow, or partially hollow and tend to form needle shapes.";
@@ -522,7 +523,7 @@ let text7 = "As no two snow chrystals are alike, solid plates, which has charact
 let text8 = "Sectered plates are formed through branching from thin plates, and in fact, are more common than the simple hexagons.";
 let text9 = "In temperatures below -22°C, plates grow on the ends of the columns.";
 
-document.getElementById("description").innerHTML="No snow crystals has been made yet.";
+document.getElementById("description").innerHTML="No snow crystals has been made yet.<br><br>Change the temperature and humidity to create snow crystals.";
 
 function info(x,y){
    document.getElementById("displaysnowflaketype").innerHTML="Type : "+x;

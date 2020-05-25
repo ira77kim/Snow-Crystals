@@ -185,14 +185,16 @@ a{
 
   .slidecontainer{ 
 
-    font-size:2.5vw;
+    font-size:3.5vw;
     font-weight: 100;
+  }
+  .slider{
+    width: 25vw;
   }
   .slider::-webkit-slider-thumb {
     width: 15px; 
     height: 15px; 
   }
-  
   .contents{
     position: absolute;
     top:10vh;
@@ -202,45 +204,57 @@ a{
     color:white;
     width:25vw;
   }
+  #temperature{
+    position: absolute;
+    top:0vh;
+  }
+  #humidity{
+    position: absolute;
+    top:13vh;
+  }
 
   .botcontents1{
-    position: relative;
-    top:22vh;
+    position: absolute;
+    top:33vh;
     width:25vw;
     font-size:2.5vw;
   }
+  
   #displaysnowflaketype{
-    line-height: 11vw;
+    line-height: 6vw;
   }
+
   .botcontents2{
     position: absolute;;
-    top:55vh;
+    top:69vh;
+    width:25vw;
     font-size:2.5vw;
     line-height: 2vw;
   }
   #location{
-    line-height: 11vw ;
+    line-height: 7vw ;
   }
 
   .sub{
-    line-height: 3vw;
-    
+    font-size: 3.5vw;    
   }
 
   .small{
-    line-height: 3vw;
+    line-height: 3.5vw;
     font-size: 1.5vw;
   }
 
   .last{
     position: absolute;
-    top: 70vh;
+    top: 82vh;
+    line-height: 3vh;
+    width:50vw;
   }
 
   #link{
     position: absolute;
-    top:87.5vh;
-    left:2vw;
+    top:92.5vh;
+    left:78vw;
     
   }
   
