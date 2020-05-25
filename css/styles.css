@@ -246,14 +246,14 @@ a{
 
   .last{
     position: absolute;
-    top: 73vh;
+    top: 70vh;
     line-height: 3vh;
     /* width:50vw; */
   }
 
   #link{
     position: absolute;
-    top:89vh;
+    top:85vh;
     left:78vw;
     
   }
