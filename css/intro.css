@@ -58,7 +58,7 @@ body{
     border:1px;
     position: absolute;
     text-align: center;
-    top:32vh;
+    top:27vh;
     left:17.5vw;
     font-size: 4vw ;
     width:65vw;
@@ -71,7 +71,7 @@ body{
     } */
     #intro{
         width:80vw;
-        top:70vh;
+        top:63vh;
         left:10vw;
         font-size: 2.5vw;
         line-height: 3vw;
