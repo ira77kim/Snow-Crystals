@@ -11,8 +11,8 @@ body{
   /* font-family: 'Comfortaa', cursive;   */
     color: white;
     background-color:rgb(63, 179, 221);
-    width:95vw;
-    height:95vh;
+    /* width:95vw;
+    height:95vh; */
     margin:0px;
 }
 #title{
@@ -42,7 +42,7 @@ body{
     padding: 0.781vw 1.667vw;
     text-align: center;
     display: inline-block;
-    font-family: 'Comfortaa', cursive;
+    /* font-family: 'Comfortaa', cursive; */
     font-size: 0.833vw;
     border-radius: 0.8vw;
     /* opacity:0.7; */
@@ -63,10 +63,39 @@ body{
     font-size: 4vw ;
     width:65vw;
     }
+    /* #intro{
+    width:30vw;
+    right:30vw;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    } */
     #intro{
-        width:30vw;
-        right:30vw;
+        width:80vw;
+        top:78vh;
+        left:10vw;
         font-size: 1.5vw;
-        line-height: 2vw;
+        line-height: 3vw;
     }
+    #q{
+        width:20vw;
+        display:none;
+    }
+    
+    #button {
+        position: absolute;
+        left:60vw;
+        top:15vh;
+        background-color:rgb(103, 229, 255);
+        opacity: 0.8;
+        /* background-color: #a0e0ff ; */
+        border: none;
+        color: white;
+        padding: 0.781vw 1.667vw;
+        text-align: center;
+        display: inline-block;
+        /* font-family: 'Comfortaa', cursive; */
+        font-size: 0.833vw;
+        border-radius: 0.8vw;
+        /* opacity:0.7; */
+      }
 }
