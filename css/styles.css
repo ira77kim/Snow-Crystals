@@ -215,6 +215,7 @@ a{
   .slider::-webkit-slider-thumb {
     width: 15px; 
     height: 15px; 
+    outline: none;
   }
   .contents{
     position: absolute;
