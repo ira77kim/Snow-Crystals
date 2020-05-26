@@ -1,13 +1,23 @@
 body {
-  /* font-family: 'Lato', sans-serif; */
-  font-family: 'Comfortaa', cursive;  
+  /* font-family: 'Roboto Mono', monospace; */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Cormorant Garamond', serif; */
+  /* font-family: 'Chelsea Market', cursive; */
+  /* font-family: 'Taviraj', serif; */
+  /* font-family: 'Cardo', serif; */
+  /* font-family: 'Cormorant Garamond', serif; */
+  font-family: 'Cinzel', serif;
+  /* font-family: 'Roboto Slab', serif; */
+  /* font-family: 'Comfortaa', cursive;   */
   color: white;
   /* width: 60vw;
   height: 60vh; */
   margin-top: 17vh;
   margin-left: 28vw; 
   /* background-color:rgb(58, 112, 148); */
-  background-color:rgb(59, 126, 172);
+  /* background-color:rgb(59, 126, 172); */
+  background-color:rgb(63, 179, 221);
+
 }
 #main{
   position: absolute;
@@ -96,11 +106,14 @@ body {
     height: 1vh; 
     margin-top:0.781vh;
     margin-bottom:1vh;
-    background: #d3d3d3;
+    /* background: #d3d3d3; */
+    background: #ffffff;
+    border-radius: 1vw;
     outline: none; 
-    opacity: 0.7; 
+    opacity: 0.8; 
     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
     transition: opacity .2s;
+
   }
   
   /* Mouse-over effects */
@@ -111,9 +124,13 @@ body {
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none; 
     appearance: none;
-    width: 20px; 
-    height: 20px; 
-    background:#a0e0ff;
+    width: 22px; 
+    height: 22px; 
+    /* background:#9bdeff; */
+    background:rgb(103, 229, 255);
+    border-radius: 1vw;
+    /* background:#a0e0ff; */
+
     /* background: rgb(18, 146, 163);  */
     cursor: pointer; 
   }
@@ -174,9 +191,13 @@ a{
   #main{
     width:62vw;
     left:1.5vw;
+    margin-left: auto;
+    margin-right: auto;
   }
   #pageTitle {
+    
     position: absolute;
+    
     top:5vh;
     left:2vw;
     font-size:7vw;

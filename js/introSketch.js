@@ -16,7 +16,8 @@ function setup() {
   createCanvas(windowWidth*0.98,windowHeight*0.98);
 
   angleMode(DEGREES);
-  background(59, 126, 172);
+  background(63, 179, 221);
+
   // saveButton = createButton("save");
   // saveButton.mousePressed(saveSnowFlake);
   // clearButton = createButton("clear");

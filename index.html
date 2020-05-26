@@ -4,7 +4,7 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&family=Roboto+Slab:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Cardo&family=Cinzel&family=Lato:wght@400;900&family=Comfortaa:wght@300;400;500;600&family=Chelsea+Market&family=Cormorant+Garamond:wght@500&family=Montserrat:wght@500;600&family=Roboto+Mono:wght@300;400;500&family=Roboto+Slab&family=Taviraj:wght@400;500&display=swap" rel="stylesheet">
     <script src = "js/p5.min.js"></script>
     <script src="js/p5.dom.min.js"></script>
     <script src = "js/introSketch.js"></script>
@@ -15,11 +15,14 @@
 </head>
 <body>
 <div id="title">
+    <!-- <div>
+        Snow Crystals
+    </div> -->
     <h1>
         Snow Crystals
     </h1>
     <span id="subtitle">
-        Draw a snow crystal 
+        Click and drag to draw a snow crystal 
         
     </span>
 </div>
@@ -27,12 +30,13 @@
 
 <div id="intro">
     <span>
-        Ever wondered how each grains of snowflakes are made? <br><br>
-        Project Snow Crystals is an infographics project on the natural system behind the formation of snow crystals. 
-        <br>Based on the temperature and humidity of the environment, largely 9 type of snow crystals are formed.
-        <br><br>Go to the next page to see how each types of snow crystals are formed in nature.
+        <span id ="q">Ever wondered how each grain of snow crystals are made?</span> <br><br>
+        <span id="i">Project Snow Crystals is an infographics project on the natural system behind the formation of snow crystals. 
+            <br>Based on the temperature and humidity of the environment, 9 type of snow crystals are formed.</span>
         <br><br>
-        <input type="button" class="button" value="Next Page" onclick="location.href='main.html'">
+        <span id="n">Go to the next page to see how each types of snow crystals are formed in nature.</span>
+        <br><br>
+        <input type="button" class="button" id="button" value="Next Page" onclick="location.href='main.html'">
 
     </span>
 </div>    

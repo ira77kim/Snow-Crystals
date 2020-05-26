@@ -1,10 +1,16 @@
 body{
-    /* align-content: center; */
-    font-family: 'Comfortaa', cursive;  
-    /* font-family: 'Roboto Slab', serif; */
-    /* font-weight:500; */
+      /* font-family: 'Roboto Mono', monospace; */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Cormorant Garamond', serif; */
+  /* font-family: 'Chelsea Market', cursive; */
+  /* font-family: 'Taviraj', serif; */
+  /* font-family: 'Cardo', serif; */
+  /* font-family: 'Cormorant Garamond', serif; */
+  font-family: 'Cinzel', serif;
+  /* font-family: 'Roboto Slab', serif; */
+  /* font-family: 'Comfortaa', cursive;   */
     color: white;
-    background-color: rgb(59, 126, 172);
+    background-color:rgb(63, 179, 221);
     width:95vw;
     height:95vh;
     margin:0px;
@@ -15,7 +21,7 @@ body{
     position: absolute;
     text-align: center;
     top:40vh;
-    left:38vw;
+    left:34vw;
     font-size: 1.5vw ;
 }
 
@@ -47,38 +53,20 @@ body{
       opacity:1;
   }
  @media only screen and (max-width: 800px){
-    html, body {
-        margin: 0;
-        padding: 25px 2px;
+    #title{
+    display: block;
+    border:1px;
+    position: absolute;
+    text-align: center;
+    top:40vh;
+    left:17.5vw;
+    font-size: 4vw ;
+    width:65vw;
     }
-    .header {
-        padding: 0px 30px;
-    }
-    .header h1{
-        font-size:40px;
-    }
-    .header h2 {
-        font-size: 18;
-    }
-    #number {
-        font-size: 40px;
-    }
-    .container{
-        margin-top: 80px;
-    }
-    .button{
-        font-size: 15px;
-        border-radius: 5px;
-        }
-    .column.center{
-        margin-top: 10px;
-    }
-    .footer h2{
-        font-size: 14px;
-        padding: 50px 10px 0px 0px;
-    }
-    #myVideo {
-        width: 95%;
-        border-radius: 10px;
+    #intro{
+        width:30vw;
+        right:30vw;
+        font-size: 1.5vw;
+        line-height: 2vw;
     }
 }
