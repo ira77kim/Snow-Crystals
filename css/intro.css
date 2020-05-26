@@ -33,8 +33,17 @@ body{
     font-size: 0.833vw;
     line-height: 1.563vw;
 }
+#icon{
+    position: absolute;
+    border-radius: 1vw;
+    width:5vw;
+    left:0vw;
+    top:53vh;
+}
 .button {
-    position: relative;
+    position: absolute;
+    top:53vh;
+    left:0vw;
     background-color:#74bde2 ;
     /* background-color: #a0e0ff ; */
     border: none;
