@@ -71,7 +71,7 @@ body{
     } */
     #intro{
         width:80vw;
-        top:63vh;
+        top:67vh;
         left:10vw;
         font-size: 2.5vw;
         line-height: 3vw;
@@ -84,7 +84,7 @@ body{
     #button {
         position: absolute;
         left:60vw;
-        top:10vh;
+        top:15vh;
         background-color:rgb(103, 229, 255);
         opacity: 0.8;
         /* background-color: #a0e0ff ; */
@@ -92,7 +92,7 @@ body{
         color: white;
         padding: 0.781vw 1.667vw;
         text-align: center;
-        display: inline-block;
+        /* display: inline-block; */
         /* font-family: 'Comfortaa', cursive; */
         font-size: 3.5vw;
         border-radius: 0.8vw;
