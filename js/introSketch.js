@@ -6,7 +6,7 @@ let num=0;
 
 
 document.addEventListener("click",cleartitle);
-
+document.addEventListener("touchstart",cleartitle);
 function cleartitle(){
   document.getElementById("title").style.display="none";
 
