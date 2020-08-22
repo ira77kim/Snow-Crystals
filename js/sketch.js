@@ -12,19 +12,25 @@ scene.background = new THREE.Color(0x6eb3d6);
 let canvas=document.getElementById("flake");
 
 let renderer = new THREE.WebGLRenderer({alpha:true});
-renderer.setSize(window.innerWidth*0.65, window.innerHeight*0.74);
+renderer.setSize(window.innerWidth*0.55, window.innerHeight*0.68);
+// renderer.setSize(window.innerWidth*0.65, window.innerHeight*0.74); //original
+
 document.getElementById("flake").appendChild(renderer.domElement);
 
 
 
 let camera = new THREE.PerspectiveCamera(50,window.innerWidth / window.innerHeight,0.1,1000);
 camera.position.z = 4;
-let amblight = new THREE.AmbientLight(0xffffff,0.2,100);
+let amblight = new THREE.AmbientLight(0xffffff,0.3,100);
+amblight.position.set(0,-1,0);
 scene.add(amblight);
-let light = new THREE.DirectionalLight(0xffffff,1,100);
+let light = new THREE.DirectionalLight(0xffffff,0.4,100);
 light.position.set(5,5,5);
 light.castShadow = false;
 scene.add(light);
+let plight = new THREE.PointLight(0xffffff,0.6,100);
+plight.position.z=2;
+scene.add(plight);
 
 light.shadow.mapSize.width = 512;  // default
 light.shadow.mapSize.height = 512; // default
@@ -40,7 +46,8 @@ let colorBlue = new THREE.Color(220,220,255);
 let colorWhite = new THREE.Color(255,255,255);
 //materials
 let materialBlue = new THREE.MeshPhongMaterial({color:0xa0e0ff});
-let materialWhite = new THREE.MeshPhongMaterial({color:0xd0cdff});
+let materialWhite = new THREE.MeshPhongMaterial({color:0xd0d0ff});
+// let materialWhite = new THREE.MeshPhongMaterial({color:0xd0cdff});
 materialWhite.transparent=true;
 materialWhite.opacity=0.8;
 
